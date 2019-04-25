@@ -1,6 +1,7 @@
 *.log
 *.temp
 /venv
+.idea/*
 .idea
 __pycache__
 .idea/*
