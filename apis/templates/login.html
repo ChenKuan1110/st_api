@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    <h2>Login</h2>
+{% endblock %}
+
+{% block content %}
+    <form action="/login/" method="post">
+        用户名：<input type="text" id="username" name="username"><br>
+        密码：<input type="password" id="password" name="password"><br>
+        <input type="submit" value="登陆">
+    </form>
+{% endblock %}
